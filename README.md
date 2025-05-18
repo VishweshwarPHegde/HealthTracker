@@ -54,30 +54,31 @@ The system consists of five primary layers:
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
+```
 healthTracker/
-├── app.py # Main application file
-├── audio_play.py # Audio alert functionality
-├── chat.py # Chat interface
-├── email_sender.py # Email notification system
-├── model_predict.py # ML model prediction functions
-├── smartai_text.pkl # Text processing model
-├── chatbot_model.h5 # Chatbot neural network model
-├── tokenizer.pickle # Tokenization data for chatbot
-├── intents.json # Chatbot intents and responses
-│
+├── app.py                  # Main application file
+├── audio_play.py           # Audio alert functionality
+├── chat.py                 # Chat interface
+├── email_sender.py         # Email notification system
+├── model_predict.py        # ML model prediction functions
+├── smartai_text.pkl        # Text processing model
+├── chatbot_model.h5        # Chatbot neural network model
+├── tokenizer.pickle        # Tokenization data for chatbot
+├── intents.json            # Chatbot intents and responses
 ├── data/
-│ ├── chat_history.csv # Stored user chat interactions
-│ ├── database.csv # Core health data
-│ └── health_data.csv # Processed physiological metrics
-│
-└── models/
-├── cnn_model.ipynb # CNN for ECG analysis
-├── LSTM_model.ipynb # LSTM for trend prediction
-├── rnn_model.ipynb # RNN for sequential data analysis
-├── index_to_tag.pickle # Index-to-tag mapping for models
-└── tag_to_index.pickle # Tag-to-index mapping
+│   ├── chat_history.csv    # Stored user chat interactions
+│   ├── database.csv        # Core health data
+│   └── health_data.csv     # Processed physiological metrics
+├── models/
+│   ├── cnn_model.ipynb     # CNN for ECG analysis
+│   ├── LSTM_model.ipynb    # LSTM for trend prediction
+│   ├── rnn_model.ipynb     # RNN for sequential data analysis
+│   ├── index_to_tag.pickle # Index-to-tag mapping for models
+│   └── tag_to_index.pickle # Tag-to-index mapping
+```
+
 
 
 ---
