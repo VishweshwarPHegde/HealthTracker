@@ -16,7 +16,7 @@ The system consists of five primary layers:
 4. **Notification Layer** – Alerts healthcare providers about detected anomalies  
 5. **User Interface Layer** – Provides access to health insights, trends, and alerts  
 
-![Architecture Diagram](https://via.placeholder.com/800x500?text=HealthTracker+Architecture+Diagram)
+
 
 ---
 
@@ -108,12 +108,11 @@ healthTracker/
 ## Installation and Setup
 
 1. **Clone the repository**
-```bash
 git clone https://github.com/your-username/healthTracker.git
 cd healthTracker
 2. **Install required dependencies**
-pip install -r requirements.txt
+   pip install -r requirements.txt
 3. **Run the application**
-python app.py
+   python app.py
 
 
