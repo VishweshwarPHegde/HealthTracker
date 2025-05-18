@@ -111,11 +111,33 @@ healthTracker/
 ```bash
 git clone https://github.com/your-username/healthTracker.git
 cd healthTracker
+```
 2. **Install required dependencies**
 ```bash
 pip install -r requirements.txt
+```
 3. **Run the application**
 ```bash
 python app.py
+```
+
+## Usage
+
+### For Healthcare Providers
+- Access real-time and historical health reports
+- Monitor simulated patient data
+- Receive alerts for abnormalities
+- Configure thresholds and response settings
+
+### For Patients
+- View personal simulated health records
+- Receive alerts and recommendations
+- Adjust personal monitoring preferences
+
+## Machine Learning Models
+- CNN (Convolutional Neural Network): For analyzing ECG signals and identifying cardiac anomalies
+- LSTM (Long Short-Term Memory): For predicting future health risks based on time-series data
+- RNN (Recurrent Neural Network): For analyzing sequential physiological data
+- Isolation Forest: For detecting anomalies and outliers in health metrics
 
 
