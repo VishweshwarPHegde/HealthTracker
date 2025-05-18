@@ -108,11 +108,14 @@ healthTracker/
 ## Installation and Setup
 
 1. **Clone the repository**
+```bash
 git clone https://github.com/your-username/healthTracker.git
 cd healthTracker
 2. **Install required dependencies**
-   pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
 3. **Run the application**
-   python app.py
+```bash
+python app.py
 
 
