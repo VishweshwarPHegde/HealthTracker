@@ -14,8 +14,6 @@ The system consists of five primary layers:
 4. **Notification Layer**: Alerts healthcare providers about detected anomalies
 5. **User Interface Layer**: Provides access to health insights, trends, and alerts
 
-![Architecture Diagram](https://via.placeholder.com/800x500?text=HealthTracker+Architecture+Diagram)
-
 ## Key Features
 
 ### Continuous Data Collection
@@ -99,31 +97,8 @@ healthTracker/
 git clone https://github.com/your-username/healthTracker.git
 cd healthTracker
 2. Install required dependencies:
+```bash
 pip install -r requirements.txt
 3. Set up the application:
+```bash
 python app.py
-
-## Usage
-### For Patients
-View simulated health records
-Receive notifications for health anomalies
-Adjust monitoring settings
-
-### For Healthcare Providers
-Access comprehensive health reports
-Examine simulated illness patterns
-Configure monitoring parameters
-Receive alerts for critical events
-
-## Machine Learning Models
-The system incorporates several machine learning models:
-CNN Model: Analyzes ECG patterns for cardiac anomalies
-LSTM Model: Predicts future health trends based on historical data
-RNN Model: Processes sequential health data
-Isolation Forest: Detects outliers in vital signs
-
-
-
-
-
-
